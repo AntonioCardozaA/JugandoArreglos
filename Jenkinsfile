@@ -26,7 +26,7 @@ pipeline{
       }
       post{
         always{
-          junit 'jugandoArreglos/tarjet/surefire-reports/*.jar'
+          junit 'jugandoArreglos/tarjet/surefire-reports/*.xml'
         }
       }
     }
